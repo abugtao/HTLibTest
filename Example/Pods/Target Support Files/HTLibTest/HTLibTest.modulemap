@@ -1,0 +1,6 @@
+framework module HTLibTest {
+  umbrella header "HTLibTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

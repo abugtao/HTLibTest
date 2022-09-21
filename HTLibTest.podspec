@@ -30,7 +30,23 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'HTLibTest/Classes/**/*'
+#  s.source_files = 'HTLibTest/Classes/**/*'
+  s.dependency 'YYKit'
+  
+  s.default_subspecs  = 'app_A'
+
+  s.subspec "common" do |ss|
+    ss.source_files = "HTLibTest/common/**/*"
+  end
+
+  s.subspec 'app_A' do |ss|
+    ss.source_files = "HTLibTest/app_A/**/*"
+  end
+
+  s.subspec 'app_B' do |ss|
+    ss.source_files = "HTLibTest/app_B/**/*"
+  end
+  
   
   # s.resource_bundles = {
   #   'HTLibTest' => ['HTLibTest/Assets/*.png']

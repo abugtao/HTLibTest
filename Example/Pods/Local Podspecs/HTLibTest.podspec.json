@@ -1,0 +1,22 @@
+{
+  "name": "HTLibTest",
+  "version": "0.1.0",
+  "summary": "A short description of HTLibTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/abugtao@163.com/HTLibTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "abugtao@163.com": "abugtao@163.com"
+  },
+  "source": {
+    "git": "https://github.com/abugtao@163.com/HTLibTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HTLibTest/Classes/**/*"
+}

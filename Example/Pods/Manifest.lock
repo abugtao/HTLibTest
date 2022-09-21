@@ -1,0 +1,16 @@
+PODS:
+  - HTLibTest (0.1.0)
+
+DEPENDENCIES:
+  - HTLibTest (from `../`)
+
+EXTERNAL SOURCES:
+  HTLibTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HTLibTest: 8ac181af9a2b42df632c250bd6a0fc1d74f7c17c
+
+PODFILE CHECKSUM: bac69c533876a5bf6266c0dbfdd1bc95e49d9e24
+
+COCOAPODS: 1.10.1

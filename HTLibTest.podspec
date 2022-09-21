@@ -33,18 +33,18 @@ TODO: Add long description of the pod here.
 #  s.source_files = 'HTLibTest/Classes/**/*'
   s.dependency 'YYKit'
   
-  s.default_subspecs  = 'app_A'
+  s.default_subspecs  = 'appA'
 
   s.subspec "common" do |ss|
     ss.source_files = "HTLibTest/common/**/*"
   end
 
-  s.subspec 'app_A' do |ss|
-    ss.source_files = "HTLibTest/app_A/**/*"
+  s.subspec 'appA' do |ss|
+    ss.source_files = "HTLibTest/appA/**/*"
   end
 
-  s.subspec 'app_B' do |ss|
-    ss.source_files = "HTLibTest/app_B/**/*"
+  s.subspec 'appB' do |ss|
+    ss.source_files = "HTLibTest/appB/**/*"
   end
   
   

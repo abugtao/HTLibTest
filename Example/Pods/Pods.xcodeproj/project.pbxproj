@@ -11,12 +11,12 @@
 		09162CB8423152C93AD2AA1209263DB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1F96916C2D4DFC5223C18D9F247F46CA /* Pods-HTLibTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF6C658A5F58F082AA27E25F0DD7C5F /* Pods-HTLibTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7002EF07A7F7B9D48EE9E654372E8887 /* Pods-HTLibTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D27F4803F3D33859446CDC1BD8D53C75 /* Pods-HTLibTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A84FBE128DB02E40061C693 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A84FBDF28DB02E40061C693 /* Person.h */; };
-		7A84FBE228DB02E40061C693 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A84FBE028DB02E40061C693 /* Person.m */; };
-		7A84FBE528DB03130061C693 /* Student.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A84FBE328DB03130061C693 /* Student.h */; };
-		7A84FBE628DB03130061C693 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A84FBE428DB03130061C693 /* Student.m */; };
 		7A84FBE928DB031D0061C693 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A84FBE728DB031D0061C693 /* Common.h */; };
 		7A84FBEA28DB031D0061C693 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A84FBE828DB031D0061C693 /* Common.m */; };
+		7A84FBF128DB0A270061C693 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A84FBEC28DB0A270061C693 /* Person.h */; };
+		7A84FBF228DB0A270061C693 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A84FBED28DB0A270061C693 /* Person.m */; };
+		7A84FBF328DB0A270061C693 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A84FBEF28DB0A270061C693 /* Student.m */; };
+		7A84FBF428DB0A270061C693 /* Student.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A84FBF028DB0A270061C693 /* Student.h */; };
 		80DF71CA0892FD83D437E3143E80AE18 /* Pods-HTLibTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FCF62712368531128040EC57B96D0 /* Pods-HTLibTest_Tests-dummy.m */; };
 		9691886B4C545F9B4AEED8B88202A2B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AD7F065E2A4E18259B96D956BB96555A /* HTLibTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3EEF295579FD3BD63031CF317727C5 /* HTLibTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,12 +57,12 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75BCF6877DF2449A17B6034376E9D354 /* Pods-HTLibTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTLibTest_Example-dummy.m"; sourceTree = "<group>"; };
 		772D754359A5498010ABCD81A8C1C2D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7A84FBDF28DB02E40061C693 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		7A84FBE028DB02E40061C693 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		7A84FBE328DB03130061C693 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
-		7A84FBE428DB03130061C693 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		7A84FBE728DB031D0061C693 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		7A84FBE828DB031D0061C693 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		7A84FBEC28DB0A270061C693 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7A84FBED28DB0A270061C693 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		7A84FBEF28DB0A270061C693 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		7A84FBF028DB0A270061C693 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		8BFDC1C77A74683029DC621AC28174C7 /* Pods_HTLibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTLibTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF6C658A5F58F082AA27E25F0DD7C5F /* Pods-HTLibTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTLibTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		9114FF3CC0378E9F6F5EEEFA01DA6464 /* Pods-HTLibTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTLibTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -138,8 +138,8 @@
 		0BAAF30E6F41C48E62C3215C320A754A /* HTLibTest */ = {
 			isa = PBXGroup;
 			children = (
-				7A84FBDE28DB02E40061C693 /* app_A */,
-				7A84FBDC28DB02E40061C693 /* app_B */,
+				7A84FBEB28DB0A270061C693 /* appA */,
+				7A84FBEE28DB0A270061C693 /* appB */,
 				7A84FBDD28DB02E40061C693 /* common */,
 				C467C26D8DF6E6DAB259B6D2FBC4829C /* Pod */,
 				D9C0BD4157927B13232169309CC0E9FD /* Support Files */,
@@ -175,16 +175,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7A84FBDC28DB02E40061C693 /* app_B */ = {
-			isa = PBXGroup;
-			children = (
-				7A84FBE328DB03130061C693 /* Student.h */,
-				7A84FBE428DB03130061C693 /* Student.m */,
-			);
-			name = app_B;
-			path = HTLibTest/Classes/app_B;
-			sourceTree = "<group>";
-		};
 		7A84FBDD28DB02E40061C693 /* common */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,14 +185,24 @@
 			path = HTLibTest/Classes/common;
 			sourceTree = "<group>";
 		};
-		7A84FBDE28DB02E40061C693 /* app_A */ = {
+		7A84FBEB28DB0A270061C693 /* appA */ = {
 			isa = PBXGroup;
 			children = (
-				7A84FBDF28DB02E40061C693 /* Person.h */,
-				7A84FBE028DB02E40061C693 /* Person.m */,
+				7A84FBEC28DB0A270061C693 /* Person.h */,
+				7A84FBED28DB0A270061C693 /* Person.m */,
 			);
-			name = app_A;
-			path = HTLibTest/Classes/app_A;
+			name = appA;
+			path = HTLibTest/Classes/appA;
+			sourceTree = "<group>";
+		};
+		7A84FBEE28DB0A270061C693 /* appB */ = {
+			isa = PBXGroup;
+			children = (
+				7A84FBEF28DB0A270061C693 /* Student.m */,
+				7A84FBF028DB0A270061C693 /* Student.h */,
+			);
+			name = appB;
+			path = HTLibTest/Classes/appB;
 			sourceTree = "<group>";
 		};
 		83A744E5E363FF2A09EF388D3A5BE000 /* Pods-HTLibTest_Tests */ = {
@@ -273,9 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7F065E2A4E18259B96D956BB96555A /* HTLibTest-umbrella.h in Headers */,
-				7A84FBE128DB02E40061C693 /* Person.h in Headers */,
-				7A84FBE528DB03130061C693 /* Student.h in Headers */,
 				7A84FBE928DB031D0061C693 /* Common.h in Headers */,
+				7A84FBF428DB0A270061C693 /* Student.h in Headers */,
+				7A84FBF128DB0A270061C693 /* Person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +412,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A84FBF228DB0A270061C693 /* Person.m in Sources */,
 				7A84FBEA28DB031D0061C693 /* Common.m in Sources */,
-				7A84FBE228DB02E40061C693 /* Person.m in Sources */,
 				0263795923E68BA7E3F949B3311D6CED /* HTLibTest-dummy.m in Sources */,
-				7A84FBE628DB03130061C693 /* Student.m in Sources */,
+				7A84FBF328DB0A270061C693 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
